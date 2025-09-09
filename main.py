@@ -3,15 +3,11 @@ import time
 import os
 
 #Read check values
-<<<<<<< HEAD
-file_leeftijd = open("rules/age.txt", "r")
-age_check = int(file1.read())
-file_leeftijd.close()
-=======
+
 file_Age = open("rules/age.txt", "r")
-age_check = int(file1.read())
+age_check = int(file_Age.read())
 file_Age.close()
->>>>>>> 516254c2f293a143a7fb37df36a5be0ac76c920f
+
 
 file2 = open("rules/height.txt", "r")
 height_check = int(file2.read())
